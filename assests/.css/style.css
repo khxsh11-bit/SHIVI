@@ -1,6 +1,4 @@
 <body>
-   <header>
-        <h1>Pastel Green Website</h1>
         <nav>
             <a href="Home">Home</a>
             <a href="About">About</a>
@@ -35,7 +33,27 @@
                 <button>Read More</button>
             </div>
         </div>
-    </section>
+    
+     <section class="env-section">
+        <div class="env-image">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+                 alt="Environment Image">
+        </div>
+
+        <div class="env-text">
+            <h2>Protect Our Environment</h2>
+            <p>
+                Protecting the environment is our responsibility. By conserving
+                natural resources, reducing pollution, and planting more trees,
+                we can create a healthier planet for future generations.
+            </p>
+            <p>
+                Small actions like saving water, avoiding plastic, and using
+                renewable energy make a big difference.
+            </p>
+            <button>Learn More</button>
+        </div>
+
      <div class="form-container">
         <h2>Registration Form</h2>
 
@@ -49,23 +67,29 @@
             <label>Password</label>
             <input type="password" placeholder="Enter password" required>
 
-            <label>Gender</label>
-            <select>
-                <option>Select</option>
-                <option>Male</option>
-                <option>Female</option>
-                <option>Other</option>
-            </select>
-
             <label>Message</label>
             <textarea rows="3" placeholder="Write something..."></textarea>
 
             <button type="submit">Submit</button>
         </form>
     </div>
+ </section>
 
  <footer>
-        <p>© 2026 Pastel Green Website</p>
+
+        <div class="footer-container">
+            <div class="footer-logo">
+                MyLogo
+            </div>
+
+            <div class="footer-links">
+                <a href="Home">Home</a>
+                <a href="About">About</a>
+                <a href="Contact">Contact</a>
+            </div>
+        </div>
+
+       
     </footer>
 
     

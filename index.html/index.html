@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <a href="a"
+    <a href="assests">style.css</a>
     <title>Git nd GITHUB</title>
-    
+
     <style>
         * {
             margin: 0;
@@ -19,18 +19,8 @@
             color: #2f4f2f;
         }
 
-        header {
-            background-color: #B7E4C7;
-            padding: 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-        }
-
         nav {
-            margin-top: 10px;
+            margin-top: 30px;
         }
 
         nav a {
@@ -38,6 +28,7 @@
             color: #1b4332;
             margin: 0 15px;
             font-weight: 600;
+            font-size: 30px;
         }
 
         nav a:hover {
@@ -83,23 +74,108 @@
             background-color: #74C69D;
         }
 
-        footer {
-            background-color: #B7E4C7;
+       .form-container {
+            background-color: #ffffff;
+            padding: 30px 35px;
+            width: 360px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+         .form-container h2 {
             text-align: center;
-            padding: 15px;
+            margin-bottom: 20px;
+            color: #1b4332;
+        }
+
+         label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #2f4f2f;
+        }
+
+         input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+         input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #74C69D;
+        }
+
+         textarea {
+            resize: none;
+        }
+
+         button {
+            width: 100%;
+            margin-top: 25px;
+            padding: 12px;
+            border: none;
+            border-radius: 20px;
+            background-color: #95D5B2;
+            color: #1b4332;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+         button:hover {
+            background-color: #74C69D;
+        }
+        
+        footer {
+            background-color: #B7E4C7; /* pastel green */
+            padding: 20px 0;
             margin-top: 40px;
         }
+
+        .footer-container {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            flex-wrap: wrap;
+        }
+
+        .footer-logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #1b4332;
+        }
+
+        .footer-links a {
+            margin: 0 15px;
+            display:inblock;
+            text-decoration: none;
+            color: #1b4332;
+            font-weight: 600;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+
     </style>
 </head>
-<body>
 
-    <header>
-        <h1>Pastel Green Website</h1>
+<body>
+   <header>
+       
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="Home">Home</a>
+            <a href="About">About</a>
+            <a href="Service">Services</a>
+            <a href="Contact">Contact</a>
         </nav>
     </header>
 
@@ -129,12 +205,59 @@
                 <button>Read More</button>
             </div>
         </div>
-    </section>
+        
+     <div class="form-container">
+        <h2>Registration Form</h2>
 
-    <footer>
-        <p>© 2026 Pastel Green Website</p>
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter password" required>
+
+            <label>Message</label>
+            <textarea rows="3" placeholder="Write something..."></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+ </section>
+ 
+ <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                MyLogo
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+
+       
     </footer>
-
-    
+  
 </body>
 </html>
+
+  
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
