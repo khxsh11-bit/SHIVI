@@ -36,8 +36,35 @@
             </div>
         </div>
     </section>
+     <div class="form-container">
+        <h2>Registration Form</h2>
 
-    <footer>
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter password" required>
+
+            <label>Gender</label>
+            <select>
+                <option>Select</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+
+            <label>Message</label>
+            <textarea rows="3" placeholder="Write something..."></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+ <footer>
         <p>© 2026 Pastel Green Website</p>
     </footer>
 
