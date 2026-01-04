@@ -1,0 +1,46 @@
+<body>
+   <header>
+        <h1>Pastel Green Website</h1>
+        <nav>
+            <a href="Home">Home</a>
+            <a href="About">About</a>
+            <a href="Service">Services</a>
+            <a href="Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h2>Welcome</h2>
+        <p>
+            This is a clean and calming website design using pastel green colors,
+            built only with HTML and CSS.
+        </p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Design</h3>
+                <p>Soft colors that create a peaceful user experience.</p>
+                <button>Read More</button>
+            </div>
+
+            <div class="card">
+                <h3>Development</h3>
+                <p>Simple, responsive layout using Flexbox.</p>
+                <button>Read More</button>
+            </div>
+
+            <div class="card">
+                <h3>Support</h3>
+                <p>Easy to customize and extend.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Pastel Green Website</p>
+    </footer>
+
+    
+</body>
+</html>
